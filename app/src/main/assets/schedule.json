@@ -1,0 +1,208 @@
+{
+  "week1": [
+    {
+      "day": "1",
+      "numSets": 5,
+      "rest": "60 seconds between each set",
+      "set1": "2",
+      "set2": "3",
+      "set3": "2",
+      "set4": "2",
+      "set5": "Max (at least 3)"
+    },
+    {
+      "day": "2",
+      "numSets": 5,
+      "rest": "90 seconds between each set",
+      "set1": "3",
+      "set2": "4",
+      "set3": "2",
+      "set4": "3",
+      "set5": "Max (at least 4)"
+    },
+    {
+      "day": "3",
+      "numSets": 5,
+      "rest": "120 seconds between each set",
+      "set1": "4",
+      "set2": "5",
+      "set3": "4",
+      "set4": "4",
+      "set5": "Max (at least 5)"
+    }
+  ],
+  "week2": [
+    {
+      "day": "1",
+      "numSets": 5,
+      "rest": "60 seconds between each set",
+      "set1": "4",
+      "set2": "6",
+      "set3": "4",
+      "set4": "4",
+      "set5": "Max (at least 6)"
+    },
+    {
+      "day": "2",
+      "numSets": 5,
+      "rest": "90 seconds between each set",
+      "set1": "5",
+      "set2": "6",
+      "set3": "4",
+      "set4": "4",
+      "set5": "Max (at least 7)"
+    },
+    {
+      "day": "3",
+      "numSets": 5,
+      "rest": "120 seconds between each set",
+      "set1": "5",
+      "set2": "7",
+      "set3": "5",
+      "set4": "5",
+      "set5": "Max (at least 8)"
+    }
+  ],
+  "week3": [
+    {
+      "day": "1",
+      "numSets": 5,
+      "rest": "60 seconds between each set",
+      "set1": "10",
+      "set2": "12",
+      "set3": "7",
+      "set4": "7",
+      "set5": "Max (at least 9)"
+    },
+    {
+      "day": "2",
+      "numSets": 5,
+      "rest": "90 seconds between each set",
+      "set1": "10",
+      "set2": "12",
+      "set3": "8",
+      "set4": "8",
+      "set5": "Max (at least 12)"
+    },
+    {
+      "day": "3",
+      "numSets": 5,
+      "rest": "120 seconds between each set",
+      "set1": "11",
+      "set2": "13",
+      "set3": "9",
+      "set4": "9",
+      "set5": "Max (at least 13)"
+    }
+  ],
+  "week4": [
+    {
+      "day": "1",
+      "numSets": 5,
+      "rest": "60 seconds between each set",
+      "set1": "12",
+      "set2": "14",
+      "set3": "11",
+      "set4": "10",
+      "set5": "Max (at least 16)"
+    },
+    {
+      "day": "2",
+      "numSets": 5,
+      "rest": "90 seconds between each set",
+      "set1": "14",
+      "set2": "16",
+      "set3": "12",
+      "set4": "12",
+      "set5": "Max (at least 18)"
+    },
+    {
+      "day": "3",
+      "numSets": 5,
+      "rest": "120 seconds between each set",
+      "set1": "16",
+      "set2": "18",
+      "set3": "13",
+      "set4": "13",
+      "set5": "Max (at least 20)"
+    }
+  ],
+  "week5": [
+    {
+      "day": "1",
+      "numSets": 5,
+      "rest": "60 seconds between each set",
+      "set1": "17",
+      "set2": "19",
+      "set3": "15",
+      "set4": "15",
+      "set5": "Max (at least 20)"
+    },
+    {
+      "day": "2",
+      "numSets": 8,
+      "rest": "45 seconds between each set",
+      "set1": "10",
+      "set2": "10",
+      "set3": "13",
+      "set4": "13",
+      "set5": "10",
+      "set6": "10",
+      "set7": "9",
+      "set8": "Max (at least 25)"
+    },
+    {
+      "day": "3",
+      "numSets": 8,
+      "rest": "45 seconds between each set",
+      "set1": "13",
+      "set2": "13",
+      "set3": "15",
+      "set4": "15",
+      "set5": "12",
+      "set6": "12",
+      "set7": "10",
+      "set8": "Max (at least 30)"
+    }
+  ],
+  "week6": [
+    {
+      "day": "1",
+      "numSets": 5,
+      "rest": "60 seconds between each set",
+      "set1": "25",
+      "set2": "30",
+      "set3": "20",
+      "set4": "15",
+      "set5": "Max (at least 40)"
+    },
+    {
+      "day": "2",
+      "numSets": 9,
+      "rest": "45 seconds between each set",
+      "set1": "14",
+      "set2": "14",
+      "set3": "15",
+      "set4": "15",
+      "set5": "14",
+      "set6": "14",
+      "set7": "10",
+      "set8": "10",
+      "set9": "Max (at least 44)"
+    },
+    {
+      "day": "3",
+      "numSets": 9,
+      "rest": "45 seconds between each set",
+      "set1": "13",
+      "set2": "13",
+      "set3": "17",
+      "set4": "17",
+      "set5": "16",
+      "set6": "16",
+      "set7": "14",
+      "set8": "14",
+      "set9": "Max (at least 50)"
+    }
+  ]
+}
