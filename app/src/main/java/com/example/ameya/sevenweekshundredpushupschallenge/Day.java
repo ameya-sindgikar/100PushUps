@@ -36,12 +36,17 @@ public class Day extends Activity {
     ArrayList <SetPushUps>setList;
     CustomAdapter listAdapter;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_day);
 
         ListView lv = (ListView) findViewById(R.id.listView);
+
+        int[] img = { R.drawable.number_one, R.drawable.number_one, R.drawable.number_two, R.drawable.number_three,
+                R.drawable.number_four,R.drawable.number_five,R.drawable.number_six,
+                R.drawable.number_seven,R.drawable.number_eight,R.drawable.number_nine};
 
         Intent intent = getIntent();
         String weekNum = intent.getStringExtra("weekNum");
@@ -56,8 +61,6 @@ public class Day extends Activity {
 
         TextView restText = (TextView) findViewById(R.id.rest_text);
 
-        Bitmap icon = BitmapFactory.decodeResource(this.getResources(),
-                R.drawable.pu_icon);
 
         try {
             jsonObject = new JSONObject(loadFromJSON());
@@ -72,7 +75,7 @@ public class Day extends Activity {
             setList = new ArrayList<SetPushUps>();
             for (int i=1; i<=numSetPushUps; i++) {
                 String numPU = dayObject.getString("set"+i)+" push ups";
-                SetPushUps setPushUps = new SetPushUps("Set "+i, numPU, icon);
+                SetPushUps setPushUps = new SetPushUps("Set "+i, numPU, getIcon(img[i]));
                 //Log.e("set", set);
                 setList.add(setPushUps);
             }
@@ -84,6 +87,12 @@ public class Day extends Activity {
         listAdapter = new CustomAdapter(this, setList);
         lv.setAdapter(listAdapter);
 
+    }
+
+    public Bitmap getIcon (int index){
+        Bitmap icon = BitmapFactory.decodeResource(this.getResources(),
+                index);
+        return icon;
     }
 
     @Override
